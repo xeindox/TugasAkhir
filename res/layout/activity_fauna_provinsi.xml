@@ -1,0 +1,556 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.FaunaProvinsi" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="aceh"
+                android:text="Aceh" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button01"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sumut"
+                android:text="Sumatera Utara" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button02"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="riau"
+                android:text="Riau" />
+            <TextView
+                android:id="@+id/TextView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button35"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kepri"
+                android:text="Kepulauan Riau" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button03"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sumbar"
+                android:text="Sumatera Barat" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button04"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="jambi"
+                android:text="Jambi" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button05"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="bangka"
+                android:text="Bangka Belitung" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button06"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sumsel"
+                android:text="Sumatera Selatan" />
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button19"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="bengkulu"
+                android:text="Bengkulu" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button07"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="lampung"
+                android:text="Lampung" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button09"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="banten"
+                android:text="Banten" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button08"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="jakarta"
+                android:text="Jakarta" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button10"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="jabar"
+                android:text="Jawa Barat" />
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button14"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="jateng"
+                android:text="Jawa Tengah" />
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button18"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="jatim"
+                android:text="Jawa Timur" />
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button12"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="yogya"
+                android:text="Yogyakarta" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button13"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="bali"
+                android:text="Bali" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button11"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="ntb"
+                android:text="Nusa Tenggara Barat" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button16"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="ntt"
+                android:text="Nusa Tenggara Timur" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button20"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kalbar"
+                android:text="Kalimantan Barat" />
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button30"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kalteng"
+                android:text="Kalimantan Tengah" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button21"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kaltim"
+                android:text="Kalimantan Timur" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button27"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kalsel"
+                android:text="Kalimantan Selatan" />
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button22"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="kalbar"
+                android:text="Kalimantan Barat" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button25"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="goron"
+                android:text="Gorontalo" />
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button31"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sulbar"
+                android:text="Sulawesi Barat" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button28"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sulut"
+                android:text="Sulawesi Utara" />
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button23"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sulsel"
+                android:text="Sulawesi Selatan" />
+            <TextView
+                android:id="@+id/TextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button34"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sulteng"
+                android:text="Sulawesi Tengah" />
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button33"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="sultra"
+                android:text="Sulawesi Tenggara" />
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button15"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="maluku"
+                android:text="Maluku" />
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button29"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="malut"
+                android:text="Maluku Utara" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36" />
+
+            <Button
+                android:id="@+id/Button17"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.36"
+                android:background="#fff99d"
+                android:onClick="papua"
+                android:text="Papua" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

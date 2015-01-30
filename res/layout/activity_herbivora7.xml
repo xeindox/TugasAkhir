@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Herbivora7" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kerbau"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kerbau" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kerbau adalah binatang memamah biak yang menjadi ternak bagi banyak bangsa di dunia, terutama Asia. Hewan ini adalahdomestikasi dari kerbau liar (orang India menyebutnya arni) yang masih dapat ditemukan di daerah-daerah Pakistan, India,Bangladesh, Nepal, Bhutan, Vietnam, Cina, Filipina, Taiwan, Indonesia, dan Thailand.
+Saat ini populasi kerbau liar di Asia mulai menurun dan dikhawatirkan pada masa yang akan datang tidak akan ada lagi populasi kerbau liar yang dapat ditemukan. Kerbau dewasa dapat memiliki berat sekitar 300 kg hingga 600 kg. Kerbau liar dapat memiliki berat yang lebih, kerbau liar betina dapat mencapai berat hingga 800 kg dan kerbau liar jantan dapat mencapai berat hingga 1200 kg. Berat rata-rata kerbau jantan adalah 900 kg dan tinggi rata-rata di bagian pundak kerbau adalah 1,7 meter.
+Salah satu ciri yang membedakan kerbau liar dari kerbau peliharaan adalah bahwa kerbau peliharaan memiliki perut yang bulat. Dengan adanya percampuran keturunan antara kerbau-kerbau antara populasi yang berbeda, berat badan kerbau dapat bervariasi.
+Klasifikasi kerbau masih belum pasti, tetapi Bubalus bubalis biasa dikelompokkan menjadi tiga anakjenis:
+1.	Kerbau liar (B. bubalis arnee), moyang bagi kerbau sungai
+2.	Kerbau sungai (B. bubalis bubalis) yang berasal dari Asia Selatan.
+3.	Kerbau rawa (B. bubalis carabauesis) yang berasal dari Asia Tenggara.
+Moyang kerbau rawa tidak lagi ditemukan secara liar, tetapi diketahui bahwa genom kerbau rawa terdiri dari 24 pasang kromosom, sedangkan kerbau sungai memiliki 25 pasang kromosom. Keturunan persilangan dari dua anakjenis ini dapat ditemukan dan mereka dapat menghasilkan keturunan (fertil). Kerbau tidak dapat berkawin silang dengan sapi yang memiliki 60 kromosom, meskipun masih termasuk dalam anaksuku yang sama Bovinae.
+Susu dari kerbau banyak digunakan oleh manusia. Contohnya sebagai bahan keju Mozzarella. Daging kerbau juga merupakan hasil ekspor utama di India. Meskipun demikian daging kerbau kurang disukai di Asia karena kekerasannya. Kulit kerbau sering digunakan juga sebagai bahan sepatu, wayang kulit, dan helm sepeda motor.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

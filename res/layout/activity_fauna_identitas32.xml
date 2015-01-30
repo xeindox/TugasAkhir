@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.FaunaIdentitas32" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cendrawasih (Papua)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cen1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cenderawasih merah(nama ilmiah: Paradisaea rubra) adalah burung Cenderawasih berukuran sedang dengan panjang sekitar 33 cm, dari marga Paradisaea. Burung ini berwarna kuning dan coklat, dan berparuh kuning. Burung jantan dewasa berukuran sekitar 72 cm yang termasuk bulu-bulu hiasan berwarna merah darah dengan ujung berwarna putih pada bagian sisi perutnya, bulu muka berwarna hijau zamrud gelap dan diekornya terdapat dua buah tali yang panjang berbentuk pilin ganda berwarna hitam. Burung betina berukuran lebih kecil dari burung jantan, dengan muka berwarna coklat tua dan tidak punya bulu-bulu hiasan.
+
+Endemik Indonesia, Cenderawasih merah hanya ditemukan di hutan dataran rendah pada pulau Waigeo dan Batanta di kabupaten Raja Ampat, provinsi Irian Jaya Barat."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

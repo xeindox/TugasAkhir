@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.FaunaIdentitas3" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuau raja (Sumatera Barat)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kusauraja" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuau Raja atau dalam nama ilmiahnya Argusianus argus adalah salah satu burung yang terdapat di dalam suku Phasianidae. Kuau Raja mempunyai bulu berwarna coklat kemerahan dan kulit kepala berwarna biru. Burung jantan dewasa berukuran sangat besar, panjangnya dapat mencapai 200cm. Di atas kepalanya terdapat jambul dan bulu tengkuk berwarna kehitaman. Burung jantan dewasa juga memiliki bulu sayap dan ekor yang sangat panjang, dihiasi dengan bintik-bintik besar menyerupai mata serangga atau oceli. Burung betina berukuran lebih kecil dari burung jantan, panjangnya sekitar 75cm, dengan jambul kepala berwarna kecoklatan. Bulu ekor dan sayap betina tidak sepanjang burung jantan, dan hanya dihiasi dengan sedikit oceli.
+
+Populasi Kuau Raja tersebar di Asia Tenggara. Spesies ini ditemukan di hutan tropis Sumatra, Borneo dan Semenanjung Malaysia.
+
+Pada musim berbiak, burung jantan memamerkan bulu sayap dan ekornya di depan burung betina. Bulu-bulu sayapnya dibuka membentuk kipas, memamerkan ratusan mata di depan pasangannya. Nama binomial spesies ini diberikan oleh Carolus Linnaeus, berdasarkan dari raksasa bermata seratus bernama Argus di mitologi Yunani. Burung betina menetaskan hanya dua telur saja.
+
+Berdasarkan dari hilangnya habitat hutan serta penangkapan liar yang terus berlanjut, Kuau Raja dievaluasikan sebagai beresiko Hampir Terancam di dalam IUCN Red List. Burung ini didaftarkan dalam CITES Appendix II."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

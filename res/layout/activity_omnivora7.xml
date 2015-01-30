@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Omnivora7" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpanse"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/simpanse" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="
+Simpanse, (sering disingkat dalam Bahasa Inggris, chimp), adalah nama umum untuk dua spesies yang masih hidup dari kera dalamgenus Pan. Sungai Kongo membentuk batas habitat alamiah dari kedua spesies ini 
+Simpanse Biasa, Pan troglodytes (Afrika Barat dan Afrika Tengah)
+Bonobo, Pan paniscus (hutan Republik Demokrasi Kongo)
+Simpanse adalah anggota dari keluarga Hominidae, bersama dengan gorila, manusia, dan orangutan. Simpanse terpisah dengan manusia dalam ranting keluarga sekitar 4 - 6 juta tahun lalu. Dua spesies simpanse di atas adalah kerabat terdekat manusia, semuanya anggota dari suku Hominini (berikut dengan spesies yang punah dari sub-suku Hominina). Simpanse satu-satunya anggota yang diketahui dari sub-suku Panina. Kedua spesies Pan tersebut terpisah sekitar 1 juta tahun lalu.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:onClick="back"
+                android:src="@drawable/back" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

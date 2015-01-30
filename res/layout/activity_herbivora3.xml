@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Herbivora3" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bison"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bison" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bison adalah kelompok mamalia berkuku genap. Mereka membentuk genus Bison dari subfamili Bovinae dan familia Bovidae. Bison tinggal di bagian utara bumi. Bison Amerika tinggal di Amerika Utara. Mereka hidup hingga berusia 20 tahun, dan lahir tanpa tanduk.
+Bison adalah hewan darat terbesar yang hanya terdapat di Amerika dan Eropa. Di Amerika, bison biasanya tinggal di lembah sungai dan juga dataran padang rumput serta daerah yang dipenuhi semak lebat karena mereka adalah binatang yang makanan utamanya adalah rumput dan tanaman semak.
+Sedangkan bison Eropa kebanyakan tinggal di hutan yang tidak terlalu lebat serta di dataran yang banyak ditumbuhi semak belukar. Bison adalah binatang mamalia bertanduk yang hidup secara berkelompok, tetapi tidak seperti kelompok hewan pada umumnya, kawanan bison biasanya berkelompok berdasarkan jenis kelamin dan mereka akan bertemu dengan kelompok lain apabila musim kawin telah tiba.
+Pada tahun 1800-an bison Amerika pernah dinyatakan hampir punah, karena populasi-nya yang terus turun secara drastis akibat perburuan manusia dan juga pembukaan lahan untuk pemukiman. Melihat hal itu beberapa peternak ber-inisiatif untuk mulai mengembangkan peternakan bison dan bukan hanya menangkap bison liar hingga akhirnya sampai sekarang populasi bison bisa keluar dari jurang kepunahan walaupun beberapa spesies bison tetap tidak dapat ter-selamatkan.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.FloraObatan10" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mengkudu"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mengkudu" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mengkudu (Morinda citrifolia) atau keumeudee (Aceh); pace, kemudu, kudu (Jawa); cangkudu (Sunda); kodhuk (Madura); tibah (Bali) berasal daerah Asia Tenggara, tergolong dalam famili Rubiaceae.
+Tanaman ini tumbuh di dataran rendah hingga pada ketinggian 1500 m. Tinggi pohon mengkudu mencapai 3-8 m, memiliki bunga bongkol berwarna putih. Buahnya merupakan buah majemuk, yang masih muda berwarna hijau mengkilap dan memiliki totol-totol, dan ketika sudah tua berwarna putih dengan bintik-bintik hitam."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Carnivora4" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buaya"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/buaya" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Buaya adalah reptil bertubuh besar yang hidup di air. Secara ilmiah, buaya meliputi seluruh spesies anggota suku Crocodylidae, termasuk pula buaya sepit (Tomistoma schlegelii). Meski demikian nama ini dapat pula dikenakan secara longgar untuk menyebut ‘buaya’ aligator, kaiman dan gavial; yakni kerabat-kerabat buaya yang berlainan suku.
+Buaya umumnya menghuni habitat perairan tawar seperti sungai, danau, rawa dan lahan basah lainnya, namun ada pula yang hidup di air payau seperti buaya muara. Makanan utama buaya adalah hewan-hewan bertulang belakang seperti bangsa ikan, reptil danmamalia, kadang-kadang juga memangsa moluska dan krustasea bergantung pada spesiesnya. Buaya merupakan hewan purba, yang hanya sedikit berubah karena evolusi semenjak zaman dinosaurus.
+Dikenal pula beberapa nama daerah untuk menyebut buaya, seperti misalnya buhaya (Sd.); buhaya (bjn); baya atau bajul (Jw.);bicokok (Btw.), bekatak, atau buaya katak untuk menyebut buaya bertubuh kecil gemuk; senyulong, buaya jolong-jolong (Mly.), ataubuaya julung-julung untuk menyebut buaya ikan; buaya pandan, yakni buaya yang berwarna kehijauan; buaya tembaga, buaya yang berwarna kuning kecoklatan; dan lain-lain.
+
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Herbivora8" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuda Nil"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kudanil" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuda nil memiliki tubuh yang besar dan berat, serta kulit kelabu gelap. Mereka juga memiliki gading besar yang biasa mereka gunakan untuk mempertahankan diri dari predator. Kuda nil memiriki ciri khas tubuh yang besar, mulut dan gigi yang sangat besar, empat kaki yang pendek dan gemuk, serta badan yang hampir tidak berambut. Kuda nil dewasa memiliki berat 1.5 sampai 3 ton. Meskipun bertubuh besar dan berkaki pendek, kuda nil mampu berlari dengan cepat. Untuk jarak pendek, mereka mampu berlari secepat 30 km/jam, lebih cepat dari kecepatan lari manusia pada umumnya. Kuda nil memiliki watak agresif dan dianggap salah satu hewan paling berbahaya di Afrika.
+Kerabat kuda nil yang paling dekat adalah kelompok Cetacea, seperti paus, lumba-lumba dan pesut. Selain itu kuda nil juga berkerabat dengan babi dan hewan-hewan berkuku genap lainnya.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:onClick="back"
+                android:src="@drawable/back" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

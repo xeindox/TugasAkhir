@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.FaunaIdentitas4" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serindit Melayu (Riau)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/serindit" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Serindit melayu atau dalam nama ilmiahnya Loriculus galgulus adalah sejenis burung yang terdapat di dalam genus burung serindit Loriculus. Burung ini berukuran kecil, dengan panjang mencapai 12cm. Bulunya didominasi oleh warna hijau dengan bulu ekor berwarna merah.
+
+Burung jantan dan betina serupa. Burung serindit jantan memiliki bercak kepala berwarna biru dan bercak tenggorokan berwarna merah. Burung betina berwarna lebih kusam dibanding jantan.
+
+Populasi Serindit melayu tersebar di hutan dataran rendah, dari permukaan laut sampai ketinggian 1,300m di negara Brunei, Indonesia, Malaysia, Singapura dan Thailand.
+
+Serindit Melayu hidup dalam kelompok. Burung ini memiliki kebiasaan aktif memanjat dan berjalan daripada terbang. Saat istirahat, burung serindit menggantungkan badan ke bawah. Pakannya terdiri dari sayuran hijau, buah-buahan, padi-padian dan aneka serangga kecil.
+
+Burung betina biasanya menetaskan antara tiga sampai empat butir telur yang dierami sekitar 18 sampai 20 hari.
+
+Spesies ini mempunyai daerah sebaran yang luas dan sering ditemukan di habitatnya. Serindit Melayu dievaluasikan sebagai beresiko rendah di dalam IUCN Red List dan didaftarkan dalam CITES Appendix II.
+
+Burung ini adalah satwa identitas Provinsi Riau."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

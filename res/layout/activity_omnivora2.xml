@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Omnivora2" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gagak"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gagak" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gagak adalah anggota burung pengicau (Passeriformes) yang termasuk dalam marga Corvus, suku Corvidae.
+Hampir semua jenis burung ini berukuran relatif besar dan berwarna bulu dominan hitam. Daerah sebarannya ada di seluruh benua dan kepulauan, dengan perkecualian di Amerika Selatan.
+Di antara jenis-jenis unggas, gagak diketahui mempunyai tingkat kecerdasan tertinggi di antara para burung. Kualitas ini sudah sejak lama diketahui manusia, khususnya dalam keterampilannya mencuri berbagai alat bantu manusia. Hewan ini mempunyai kemampuan belajar dan dapat memecahkan permasalahan dengan memanfaatkan sumber daya yang ada di sekitarnya.
+Di beberapa kebudayaan dan mitologi, burung gagak kerap dikaitkan dengan sesuatu yang buruk. Di Eropa, gagak dipercaya sebagai burung peliharaan penyihir. Di Indonesia, gagak di hutan dianggap dapat menjadi pertanda kesulitan yang bakal timbul. Ada pula kepercayaan yang mengaitkan sate gagak untuk memanggil genderuwa.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

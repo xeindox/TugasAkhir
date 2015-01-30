@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aej.ffi.Carnivora5" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="home"
+                android:src="@drawable/home1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elang"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="298dp"
+                android:layout_height="222dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/burungrajawali" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Elang adalah hewan berdarah panas, mempunyai sayap dan tubuh yang diselubungi bulu pelepah. Sebagai burung, elang berkembang biak dengan cara bertelur yang mempunyai cangkang keras di dalam sarang yang dibuatnya. Ia menjaga anaknya sampai mampu terbang.
+Elang merupakan hewan pemangsa. Makanan utamanya hewan mamalia kecil seperti tikus, tupai, kadal, ikan dan ayam, juga jenis-jenisserangga tergantung ukuran tubuhnya. Terdapat sebagian elang yang menangkap ikan sebagai makanan utama mereka.Biasanya elang tersebut tinggal di wilayah perairan. Paruh elang tidak bergigi tetapi melengkung dan kuat untuk mengoyak daging mangsanya. Burung ini juga mempunyai sepasang kaki yang kuat dan kuku yang tajam dan melengkung untuk mencengkeram mangsa serta daya penglihatan yang tajam untuk memburu mangsa dari jarak jauh tak terkira.
+Elang mempunyai sistem pernapasan yang baik dan mampu untuk membekali jumlah oksigen yang banyak yang diperlukan ketika terbang.Jantung burung elang terdiri dari empat bilik seperti manusia. Bilik atas dikenal sebagai atrium, sementara bilik bawah dikenali sebagaiventrikel.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="1" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_row="4"
+                    android:onClick="back"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_gravity="right|top"
+                    android:layout_row="4"
+                    android:onClick="nek"
+                    android:src="@drawable/nek" />
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

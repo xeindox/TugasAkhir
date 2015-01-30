@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aej.ffi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FloraActivity"
+            android:label="@string/title_activity_flora" >
+        </activity>
+        <activity
+            android:name=".FaunaActivity"
+            android:label="@string/title_activity_fauna" >
+        </activity>
+        <activity
+            android:name=".Carnivora"
+            android:label="@string/title_activity_carnivora" >
+        </activity>
+        <activity
+            android:name=".Omnivora"
+            android:label="@string/title_activity_omnivora" >
+        </activity>
+        <activity
+            android:name=".Herbivora"
+            android:label="@string/title_activity_herbivora" >
+        </activity>
+        <activity
+            android:name=".Carnivora2"
+            android:label="@string/title_activity_carnivora2" >
+        </activity>
+        <activity
+            android:name=".Carnivora3"
+            android:label="@string/title_activity_carnivora3" >
+        </activity>
+        <activity
+            android:name=".Carnivora4"
+            android:label="@string/title_activity_carnivora4" >
+        </activity>
+        <activity
+            android:name=".Carnivora5"
+            android:label="@string/title_activity_carnivora5" >
+        </activity>
+        <activity
+            android:name=".Carnivora6"
+            android:label="@string/title_activity_carnivora6" >
+        </activity>
+        <activity
+            android:name=".Carnivora7"
+            android:label="@string/title_activity_carnivora7" >
+        </activity>
+        <activity
+            android:name=".Carnivora8"
+            android:label="@string/title_activity_carnivora8" >
+        </activity>
+        <activity
+            android:name=".Carnivora9"
+            android:label="@string/title_activity_carnivora9" >
+        </activity>
+        <activity
+            android:name=".Omnivora3"
+            android:label="@string/title_activity_carnivora10" >
+        </activity>
+        <activity
+            android:name=".Omnivora2"
+            android:label="@string/title_activity_omnivora2" >
+        </activity>
+        <activity
+            android:name=".Omnivora3b"
+            android:label="@string/title_activity_omnivora3b" >
+        </activity>
+        <activity
+            android:name=".Omnivora4"
+            android:label="@string/title_activity_omnivora4" >
+        </activity>
+        <activity
+            android:name=".Omnivora5"
+            android:label="@string/title_activity_omnivora5" >
+        </activity>
+        <activity
+            android:name=".Omnivora6"
+            android:label="@string/title_activity_omnivora6" >
+        </activity>
+        <activity
+            android:name=".Omnivora7"
+            android:label="@string/title_activity_omnivora7" >
+        </activity>
+        <activity
+            android:name=".Omnivora3a"
+            android:label="@string/title_activity_omnivora3a" >
+        </activity>
+        <activity
+            android:name=".Herbivora2"
+            android:label="@string/title_activity_herbivora2" >
+        </activity>
+        <activity
+            android:name=".Herbivora3"
+            android:label="@string/title_activity_herbivora3" >
+        </activity>
+        <activity
+            android:name=".Herbivora4"
+            android:label="@string/title_activity_herbivora4" >
+        </activity>
+        <activity
+            android:name=".Herbivora5"
+            android:label="@string/title_activity_herbivora5" >
+        </activity>
+        <activity
+            android:name=".Herbivora6"
+            android:label="@string/title_activity_herbivora6" >
+        </activity>
+        <activity
+            android:name=".Herbivora7"
+            android:label="@string/title_activity_herbivora7" >
+        </activity>
+        <activity
+            android:name=".Herbivora8"
+            android:label="@string/title_activity_herbivora8" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas"
+            android:label="@string/title_activity_fauna_identitas" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas2"
+            android:label="@string/title_activity_fauna_identitas2" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas3"
+            android:label="@string/title_activity_fauna_identitas3" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas4"
+            android:label="@string/title_activity_fauna_identitas4" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas5"
+            android:label="@string/title_activity_fauna_identitas5" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas6"
+            android:label="@string/title_activity_fauna_identitas6" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas7"
+            android:label="@string/title_activity_fauna_identitas7" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas8"
+            android:label="@string/title_activity_fauna_identitas8" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas9"
+            android:label="@string/title_activity_fauna_identitas9" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas10"
+            android:label="@string/title_activity_fauna_identitas10" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas11"
+            android:label="@string/title_activity_fauna_identitas11" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas12"
+            android:label="@string/title_activity_fauna_identitas12" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas13"
+            android:label="@string/title_activity_fauna_identitas13" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas14"
+            android:label="@string/title_activity_fauna_identitas14" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas15"
+            android:label="@string/title_activity_fauna_identitas15" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas16"
+            android:label="@string/title_activity_fauna_identitas16" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas17"
+            android:label="@string/title_activity_fauna_identitas17" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas18"
+            android:label="@string/title_activity_fauna_identitas18" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas19"
+            android:label="@string/title_activity_fauna_identitas19" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas20"
+            android:label="@string/title_activity_fauna_identitas20" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas21"
+            android:label="@string/title_activity_fauna_identitas21" >
+        </activity>
+        <activity
+            android:name=".FloraLangka"
+            android:label="@string/title_activity_flora_langka" >
+        </activity>
+        <activity
+            android:name=".FloraLangka2"
+            android:label="@string/title_activity_flora_langka2" >
+        </activity>
+        <activity
+            android:name=".FloraLangka3"
+            android:label="@string/title_activity_flora_langka3" >
+        </activity>
+        <activity
+            android:name=".FloraLangka4"
+            android:label="@string/title_activity_flora_langka4" >
+        </activity>
+        <activity
+            android:name=".FloraLangka5"
+            android:label="@string/title_activity_flora_langka5" >
+        </activity>
+        <activity
+            android:name=".FloraIdentias"
+            android:label="@string/title_activity_flora_identias" >
+        </activity>
+        <activity
+            android:name=".FloraObat"
+            android:label="@string/title_activity_flora_obat" >
+        </activity>
+        <activity
+            android:name=".FloraBuah"
+            android:label="@string/title_activity_flora_buah" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas"
+            android:label="@string/title_activity_flora_identitas" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas2"
+            android:label="@string/title_activity_flora_identitas2" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas3"
+            android:label="@string/title_activity_flora_identitas3" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas4"
+            android:label="@string/title_activity_flora_identitas4" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas5"
+            android:label="@string/title_activity_flora_identitas5" >
+        </activity>
+        <activity
+            android:name=".FloraObat2"
+            android:label="@string/title_activity_flora_obat2" >
+        </activity>
+        <activity
+            android:name=".FloraObat3"
+            android:label="@string/title_activity_flora_obat3" >
+        </activity>
+        <activity
+            android:name=".FloraObatan2"
+            android:label="@string/title_activity_flora_obatan2" >
+        </activity>
+        <activity
+            android:name=".FloraObatan3"
+            android:label="@string/title_activity_flora_obatan3" >
+        </activity>
+        <activity
+            android:name=".FloraBuah2"
+            android:label="@string/title_activity_flora_buah2" >
+        </activity>
+        <activity
+            android:name=".FloraBuah3"
+            android:label="@string/title_activity_flora_buah3" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas22"
+            android:label="@string/title_activity_fauna_identitas22" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas23"
+            android:label="@string/title_activity_fauna_identitas23" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas24"
+            android:label="@string/title_activity_fauna_identitas24" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas25"
+            android:label="@string/title_activity_fauna_identitas25" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas26"
+            android:label="@string/title_activity_fauna_identitas26" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas27"
+            android:label="@string/title_activity_fauna_identitas27" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas28"
+            android:label="@string/title_activity_fauna_identitas28" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas29"
+            android:label="@string/title_activity_fauna_identitas29" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas30"
+            android:label="@string/title_activity_fauna_identitas30" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas31"
+            android:label="@string/title_activity_fauna_identitas31" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas32"
+            android:label="@string/title_activity_fauna_identitas32" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas33"
+            android:label="@string/title_activity_fauna_identitas33" >
+        </activity>
+        <activity
+            android:name=".FaunaIdentitas34"
+            android:label="@string/title_activity_fauna_identitas34" >
+        </activity>
+        <activity
+            android:name=".FloraBuah4"
+            android:label="@string/title_activity_flora_buah4" >
+        </activity>
+        <activity
+            android:name=".FloraBuah5"
+            android:label="@string/title_activity_flora_buah5" >
+        </activity>
+        <activity
+            android:name=".FloraBuah6"
+            android:label="@string/title_activity_flora_buah6" >
+        </activity>
+        <activity
+            android:name=".FloraBuah7"
+            android:label="@string/title_activity_flora_buah7" >
+        </activity>
+        <activity
+            android:name=".FloraBuah8"
+            android:label="@string/title_activity_flora_buah8" >
+        </activity>
+        <activity
+            android:name=".FloraBuah9"
+            android:label="@string/title_activity_flora_buah9" >
+        </activity>
+        <activity
+            android:name=".FloraBuah10"
+            android:label="@string/title_activity_flora_buah10" >
+        </activity>
+        <activity
+            android:name=".FloraLangka6"
+            android:label="@string/title_activity_flora_langka6" >
+        </activity>
+        <activity
+            android:name=".FloraLangka7"
+            android:label="@string/title_activity_flora_langka7" >
+        </activity>
+        <activity
+            android:name=".FloraLangka8"
+            android:label="@string/title_activity_flora_langka8" >
+        </activity>
+        <activity
+            android:name=".FloraLangka9"
+            android:label="@string/title_activity_flora_langka9" >
+        </activity>
+        <activity
+            android:name=".FloraLangka10"
+            android:label="@string/title_activity_flora_langka10" >
+        </activity>
+        <activity
+            android:name=".FloraObatan4"
+            android:label="@string/title_activity_flora_obatan4" >
+        </activity>
+        <activity
+            android:name=".FloraObatan5"
+            android:label="@string/title_activity_flora_obatan5" >
+        </activity>
+        <activity
+            android:name=".FloraObatan6"
+            android:label="@string/title_activity_flora_obatan6" >
+        </activity>
+        <activity
+            android:name=".FloraObatan7"
+            android:label="@string/title_activity_flora_obatan7" >
+        </activity>
+        <activity
+            android:name=".FloraObatan8"
+            android:label="@string/title_activity_flora_obatan8" >
+        </activity>
+        <activity
+            android:name=".FloraObatan9"
+            android:label="@string/title_activity_flora_obatan9" >
+        </activity>
+        <activity
+            android:name=".FloraObatan10"
+            android:label="@string/title_activity_flora_obatan10" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas6"
+            android:label="@string/title_activity_flora_identitas6" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas7"
+            android:label="@string/title_activity_flora_identitas7" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas8"
+            android:label="@string/title_activity_flora_identitas8" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas9"
+            android:label="@string/title_activity_flora_identitas9" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas10"
+            android:label="@string/title_activity_flora_identitas10" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas11"
+            android:label="@string/title_activity_flora_identitas11" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas12"
+            android:label="@string/title_activity_flora_identitas12" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas13"
+            android:label="@string/title_activity_flora_identitas13" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas14"
+            android:label="@string/title_activity_flora_identitas14" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas15"
+            android:label="@string/title_activity_flora_identitas15" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas16"
+            android:label="@string/title_activity_flora_identitas16" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas17"
+            android:label="@string/title_activity_flora_identitas17" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas18"
+            android:label="@string/title_activity_flora_identitas18" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas19"
+            android:label="@string/title_activity_flora_identitas19" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas20"
+            android:label="@string/title_activity_flora_identitas20" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas21"
+            android:label="@string/title_activity_flora_identitas21" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas22"
+            android:label="@string/title_activity_flora_identitas22" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas23"
+            android:label="@string/title_activity_flora_identitas23" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas24"
+            android:label="@string/title_activity_flora_identitas24" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas25"
+            android:label="@string/title_activity_flora_identitas25" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas26"
+            android:label="@string/title_activity_flora_identitas26" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas27"
+            android:label="@string/title_activity_flora_identitas27" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas28"
+            android:label="@string/title_activity_flora_identitas28" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas29"
+            android:label="@string/title_activity_flora_identitas29" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas30"
+            android:label="@string/title_activity_flora_identitas30" >
+        </activity>
+        <activity
+            android:name=".FloraProvisi"
+            android:label="@string/title_activity_flora_provisi" >
+        </activity>
+        <activity
+            android:name=".FaunaProvinsi"
+            android:label="@string/title_activity_fauna_provinsi" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas31"
+            android:label="@string/title_activity_flora_identitas31" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas32"
+            android:label="@string/title_activity_flora_identitas32" >
+        </activity>
+        <activity
+            android:name=".FloraIdentitas33"
+            android:label="@string/title_activity_flora_identitas33" >
+        </activity>
+    </application>
+
+</manifest>
